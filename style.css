@@ -152,7 +152,7 @@ header{
 
 .container-fourth-part .title{
     height: 100px;
-    width: 100%;
+    width: 40%;
     margin-bottom: 20px;
 }
 /* Fine Fourth part */
@@ -160,22 +160,46 @@ header{
 /* Fifth part */
 .container-fifth-part{
     background-color: aquamarine;
-    height: 300px;
-    margin: 150px auto;
+    height: 400px;
 }
 /* Fine Fifth part */
 
 /* Sixth part */
 .container-sixth-part{
     background-color: yellow;
-    height: 300px;
-    margin: 150px auto;
+    margin: 0px auto 150px auto;
+    height: 230px;
+    padding-top: 50px;
 }
+
+.text-fifth{
+    width: 40%;
+    background-color: blue;
+    height: 100px;
+    float: left;
+}
+
+.btn-white{
+    width: 40%;
+    background-color: blue;
+    height: 100px;
+    float: right;
+}
+
 /* Fine Sixth part */
+
+/* Seven part*/
+.container-seven-part{
+    height: 500px;
+    margin: 150px auto;
+    background-color: aqua;
+}
+/* Fine Seven part*/
 /* Fine Main */
 
 /* Footer */
 footer{
     background-color: grey;
 }
+
 /* Fine Footer */
