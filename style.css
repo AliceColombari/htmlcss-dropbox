@@ -8,4 +8,74 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
 /* Fine Coomon */
+
+/* debug */
+.debug{
+    height: 500px;
+}
+
+.debug .container{
+    border: solid 1px #000;
+}
+
+/* Header */
+header{
+    background-color: #0056DE;
+    height: 100px;
+    line-height: 100px;
+}
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* Jumbotron */
+#jumbotron{
+    background-color: aqua;
+}
+
+/* Main */
+.container-first-part{
+    background-color: red;
+    height: 300px;
+}
+
+.container-second-part{
+    background-color: aquamarine;
+    height: 300px;
+}
+
+.container-third-part{
+    background-color: yellow;
+    height: 300px;
+}
+
+.container-fourth-part{
+    background-color: red;
+    height: 300px;
+}
+
+.container-fifth-part{
+    background-color: aquamarine;
+    height: 300px;
+}
+
+.container-sixth-part{
+    background-color: yellow;
+    height: 300px;
+}
+
+/* Footer */
+footer{
+    background-color: grey;
+}
