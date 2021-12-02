@@ -14,6 +14,13 @@ body{
     display: table;
     clear: both;
 }
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
 /* Fine Coomon */
 
 /* debug */
@@ -31,51 +38,92 @@ header{
     height: 100px;
     line-height: 100px;
 }
-
-.container{
-    width: 80%;
-    max-width: 1180px;
-    margin: 0 auto;
-    height: 100%;
-}
+/* Fine Header */
 
 /* Jumbotron */
 #jumbotron{
     background-color: aqua;
 }
+/* Fine Jumbotron */
 
 /* Main */
+/* First part */
 .container-first-part{
     background-color: red;
     height: 300px;
+    margin: 150px auto;
 }
 
+.container-first-part .cyan{
+    background-color: cyan;
+}
+
+.container-first-part .col{
+    height: 400px;
+    float: left;
+    margin-bottom: 20px;
+    width: calc(100%/3);
+}
+
+.container-first-part .title{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cyan.team{
+    height: 100px;
+}
+
+.container-first-part .col-center{
+    
+    padding: 0px 20px;
+}
+
+.internal{
+    height: 100%;
+}
+
+/* Fine First part */
+
+/* Second part */
 .container-second-part{
-    background-color: aquamarine;
+    background-color: green;
     height: 300px;
 }
+/* Fine Second part */
 
+/* Third part */
 .container-third-part{
     background-color: yellow;
     height: 300px;
 }
+/* Fine Third part */
 
+/* Fourth part */
 .container-fourth-part{
     background-color: red;
     height: 300px;
 }
+/* Fine Fourth part */
 
+/* Fifth part */
 .container-fifth-part{
     background-color: aquamarine;
     height: 300px;
 }
+/* Fine Fifth part */
 
+/* Sixth part */
 .container-sixth-part{
     background-color: yellow;
     height: 300px;
 }
+/* Fine Sixth part */
+/* Fine Main */
 
 /* Footer */
 footer{
     background-color: grey;
 }
+/* Fine Footer */
