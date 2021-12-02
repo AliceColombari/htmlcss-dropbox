@@ -54,7 +54,7 @@ header{
     margin: 150px auto;
 }
 
-.container-first-part .cyan{
+.container-first-part .first{
     background-color: cyan;
 }
 
@@ -71,12 +71,11 @@ header{
     margin-bottom: 20px;
 }
 
-.cyan.team{
+.first.team{
     height: 100px;
 }
 
 .container-first-part .col-center{
-    
     padding: 0px 20px;
 }
 
@@ -89,16 +88,17 @@ header{
 /* Second part */
 .container-second-part{
     background-color: green;
+    margin: 150px auto;
 }
 
-.image-partner{
+.image-second{
     width: 50%;
     background-color: blue;
     height: 500px;
     float: left;
 }
 
-.text-partner{
+.text-second{
     width: 40%;
     background-color: red;
     height: 500px;
@@ -110,13 +110,50 @@ header{
 .container-third-part{
     background-color: yellow;
     height: 300px;
+    margin: 150px auto;
+}
+
+.container-third-part .third{
+    background-color: red;
+}
+
+.container-third-part .title{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container-third-part .frame-third{
+    background-color: red;
+    width: calc(100%/3);
+    height: 500px;
+    padding: 15px;
+}
+
+.frame-third{
+    float: left;
+}
+
+.image-third{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
 }
 /* Fine Third part */
 
 /* Fourth part */
 .container-fourth-part{
-    background-color: red;
-    height: 300px;
+    margin: 150px auto;
+}
+
+.container-fourth-part .fourth{
+    background-color: yellow;
+}
+
+.container-fourth-part .title{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 /* Fine Fourth part */
 
@@ -124,6 +161,7 @@ header{
 .container-fifth-part{
     background-color: aquamarine;
     height: 300px;
+    margin: 150px auto;
 }
 /* Fine Fifth part */
 
@@ -131,6 +169,7 @@ header{
 .container-sixth-part{
     background-color: yellow;
     height: 300px;
+    margin: 150px auto;
 }
 /* Fine Sixth part */
 /* Fine Main */
