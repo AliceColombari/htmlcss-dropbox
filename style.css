@@ -89,7 +89,20 @@ header{
 /* Second part */
 .container-second-part{
     background-color: green;
-    height: 300px;
+}
+
+.image-partner{
+    width: 50%;
+    background-color: blue;
+    height: 500px;
+    float: left;
+}
+
+.text-partner{
+    width: 40%;
+    background-color: red;
+    height: 500px;
+    float: right;
 }
 /* Fine Second part */
 
