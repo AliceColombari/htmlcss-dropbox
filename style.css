@@ -23,18 +23,9 @@ body{
 }
 /* Fine Coomon */
 
-/* debug */
-.debug{
-    height: 500px;
-}
-
-.debug .container{
-    border: solid 1px #000;
-}
-
 /* Header */
 header{
-    background-color: #0056DE;
+    background-color: red;
     height: 100px;
     line-height: 100px;
 }
@@ -43,6 +34,27 @@ header{
 /* Jumbotron */
 #jumbotron{
     background-color: aqua;
+    height: 600px;
+}
+
+.title-jumbotron{
+    background-color: blue;
+    height: 200px;
+    margin: 100px auto 50px auto;
+}
+
+.text-jumbotron{
+    width: 30%;
+    background-color: red;
+    height: 200px;
+    float: left;
+}
+
+.image-jumbotron{
+    width: 60%;
+    background-color: blue;
+    height: 300px;
+    float: right;
 }
 /* Fine Jumbotron */
 
@@ -200,6 +212,17 @@ header{
 /* Footer */
 footer{
     background-color: grey;
+    height: 600px;
 }
 
+.container-footer{
+   
+}
+
+.col-footer{
+    background-color: green;
+    height: 600px;
+    width: calc(100%/5);
+    float: left;
+}
 /* Fine Footer */
