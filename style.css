@@ -25,10 +25,61 @@ body{
 
 /* Header */
 header{
-    background-color: red;
-    height: 100px;
-    line-height: 100px;
+    background-color: #fff;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 15px;
 }
+
+.nav-bar.clearfix{
+    width: 100%;
+}
+
+.nav-bar-sx{
+    float: left;
+}
+
+.nav-bar-dx{
+    float: right;
+}
+
+nav img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.here:hover{
+    
+}
+
+.nav-bar-logo:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #0070e0;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
 /* Fine Header */
 
 /* Jumbotron */
