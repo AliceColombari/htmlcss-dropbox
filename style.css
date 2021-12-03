@@ -74,7 +74,7 @@ header{
     height: 400px;
     float: left;
     margin-bottom: 20px;
-    width: calc(100%/3);
+    width: 30%;
 }
 
 .container-first-part .title{
@@ -88,7 +88,7 @@ header{
 }
 
 .container-first-part .col-center{
-    padding: 0px 20px;
+    margin: 0 5%;
 }
 
 .internal{
@@ -137,10 +137,13 @@ header{
 
 .container-third-part .frame-third{
     background-color: red;
-    width: calc(90%/3);
+    width: 30%;
     height: 500px;
     padding: 15px;
-    margin: 18px;
+}
+
+.frame-third.col-center{
+    margin: 0 5%;
 }
 
 .frame-third{
@@ -173,14 +176,37 @@ header{
 /* Fifth part */
 .container-fifth-part{
     background-color: aquamarine;
-    height: 400px;
+}
+
+.col-side-fifth{
+    float: left;
+    width: 30vw;
+    height: 30vw;
+}
+
+.col-side-fifth .item{
+    background-color: blue;
+    border: solid 5px red;
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    text-align: center;
+    line-height: 15vw;
+}
+
+.col-center-fifth{
+    float: left;
+    width: calc(100% - 60vw);
+    height: 30vw;
+    overflow-y: auto;
+    background-color: grey;
+    margin: 0px;
 }
 /* Fine Fifth part */
 
 /* Sixth part */
 .container-sixth-part{
     background-color: yellow;
-    margin: 0px auto 150px auto;
     height: 230px;
     padding-top: 50px;
 }
