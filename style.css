@@ -130,14 +130,11 @@ p{
 /* First part */
 .container-first-part{
     background-color: red;
-    height: 300px;
+    height: 100%;
     margin: 150px auto;
 }
 
-.container-first-part .first{
-    background-color: cyan;
-}
-
+/* Title First part */
 #prima h2{
     font-size: 30px;
 }
@@ -164,9 +161,11 @@ p{
     border: solid 1px #ccc;
     margin-left: 15px;
 }
+/* Fine Title First part */
 
 .container-first-part .col{
-    height: 400px;
+    min-height: 950px;
+    border: 1px solid #ccc;
     float: left;
     margin-bottom: 20px;
     width: 30%;
@@ -177,10 +176,8 @@ p{
     width: 100%;
     margin-bottom: 20px;
 }
+/* Col left First part */
 
-.first.team{
-    height: 100px;
-}
 
 .container-first-part .col-center{
     margin: 0 5%;
@@ -188,6 +185,11 @@ p{
 
 .internal{
     height: 100%;
+}
+
+.first.team{
+    height: 100px;
+    border: 1px solid #ccc;
 }
 
 /* Fine First part */
