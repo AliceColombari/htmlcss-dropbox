@@ -23,6 +23,8 @@ body{
 }
 /* Fine Coomon */
 
+
+
 /* Header */
 header{
     background-color: #fff;
@@ -82,6 +84,8 @@ li a{
 
 /* Fine Header */
 
+
+
 /* Jumbotron */
 #jumbotron{
     background-color: #99c0ff;
@@ -125,6 +129,8 @@ li a{
     margin-top: 5px;
 }
 /* Fine Jumbotron */
+
+
 
 /* Main */
 /* First part */
@@ -176,18 +182,23 @@ li a{
     width: 100%;
     margin-bottom: 20px;
 }
+
+i.fas.fa-check{
+    color: #0070e0;
+}
 /* Col left First part */
-.col.col-left{
-    padding: 30px;
+.internal-col-left{
+    padding: 15px;
 }
 
 .type{
+    padding: 15px 0px;
+    vertical-align: middle;
     text-align: center;
-    padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
 
-i.far.fa-user{
+i.far.fa-user.one{
     margin-right: 10px;
 }
 
@@ -240,14 +251,43 @@ h4{
 
 .internal{
     height: 100%;
+    padding: 15px;
 }
 
+i.far.fa-building{
+    margin-right: 10px;
+}
+/* Fine Col center First part */
+
+/* Col right First part */
+
+/* Team First part */
 .first.team{
-    height: 100px;
     border: 1px solid #ccc;
 }
 
+.content-team{
+    padding: 15px;
+}
+
+p.enterprise-bold{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.enterprise-light{
+    font-size: 16px;
+}
+
+.btn-office{
+    position: relative;
+}
+
+
+/* FineTeam First part */
 /* Fine First part */
+
+
 
 /* Second part */
 .container-second-part{
