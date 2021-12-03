@@ -138,6 +138,36 @@ p{
     background-color: cyan;
 }
 
+#prima h2{
+    font-size: 30px;
+}
+
+#prima .checkbox{
+    
+}
+
+.text-checkbox{
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.pallino-blu{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid 5px #0070e0;
+    border-radius: 50%;
+}
+
+.pallino-bianco{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+}
+
 .container-first-part .col{
     height: 400px;
     float: left;
