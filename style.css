@@ -135,7 +135,6 @@ li a{
 /* Main */
 /* First part */
 .container-first-part{
-    background-color: red;
     height: 100%;
     margin: 150px auto;
 }
@@ -280,7 +279,8 @@ p.enterprise-light{
 }
 
 .btn-office{
-    position: relative;
+    float: right;
+    margin-top: -55px;
 }
 
 
