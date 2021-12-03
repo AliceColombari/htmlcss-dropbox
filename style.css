@@ -137,9 +137,10 @@ header{
 
 .container-third-part .frame-third{
     background-color: red;
-    width: calc(100%/3);
+    width: calc(90%/3);
     height: 500px;
     padding: 15px;
+    margin: 18px;
 }
 
 .frame-third{
@@ -221,8 +222,9 @@ footer{
 
 .col-footer{
     background-color: green;
-    height: 600px;
-    width: calc(100%/5);
+    height: 100%;
+    width: calc(90%/5);
     float: left;
+    margin: 0px 10px 0px 10px;
 }
 /* Fine Footer */
