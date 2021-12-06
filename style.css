@@ -404,13 +404,12 @@ p.enterprise-light{
 }
 
 .col-side-fifth .item{
-    background-color: blue;
-    border: solid 5px red;
     float: left;
     height: 15vw;
     width: 15vw;
     text-align: center;
     line-height: 15vw;
+    
 }
 
 .col-center-fifth{
@@ -418,8 +417,88 @@ p.enterprise-light{
     width: calc(100% - 60vw);
     height: 30vw;
     overflow-y: auto;
-    background-color: grey;
+    background-color: #ccc;
     margin: 0px;
+    padding: 40px;
+}
+
+.logo-designit img{
+    width: 30%;
+}
+
+hr.designit-line{
+    width: 20%;
+    color: #ddd;
+    margin: 20px 0px 50px;
+}
+
+.description p{
+    margin: 40px 0px;
+}
+
+.item.green{
+    background-color: #a2d39b;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    background-image: url('img/designit.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.brown{
+    background-color: #61082b;
+    background-image: url('img/arizona_state_university.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.blue{
+    background-color: #0093ce;
+    background-image: url('img/university_of_florida.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.red{
+    background-color: #ff1c1c;
+    background-image: url('img/topps.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.red-2{
+    background-color: #d5001f;
+    background-image: url('img/world_bicycle_relief.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.lightblue{
+    background-color: #b4d0e7;
+    background-image: url('img/hearst_corp.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.blue-2{
+    background-color: #0d2481;
+    background-image: url('img/lonely_planet.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.yellow{
+    background-color: #ffd830;
+    background-image: url('img/clear_channel.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* Fine Fifth part */
 
@@ -448,8 +527,6 @@ p.enterprise-light{
     text-decoration: none;
     padding: 8px 64px;
 }
-
-
 /* Fine Sixth part */
 
 /* Seven part*/
