@@ -474,24 +474,69 @@ p.enterprise-light{
     float: right;
     width: 5%;
 }
+
+.question-seven.border-top{
+    border-top: 1px solid black;
+}
 /* Fine Seven part*/
 /* Fine Main */
 
 /* Footer */
 footer{
-    background-color: grey;
-    height: 600px;
-}
-
-.container-footer{
-   
+    background-color: #000;
 }
 
 .col-footer{
-    background-color: green;
+    color: #fff;
     height: 100%;
     width: calc(90%/5);
     float: left;
     margin: 0px 10px 0px 10px;
 }
+
+.title-footer{
+    margin-top: 50px;
+}
+
+h2.title-footer{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li.link-footer{
+    display: block;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.link-footer a{
+    padding: 0px;
+}
+
+.footer-line{
+    width: 60%;
+}
+
+.languages{
+    margin-top: 100px;
+}
+
+i.fas.fa-globe-europe{
+    color: #fff;
+}
+
+.italiano span{
+    color: #ddd;
+    font-size: 13px;
+}
+
+i.fas.fa-sort-up{
+    color: #ddd;
+    font-size: 13px;
+}
+
+.italiano{
+    margin: 40px 0px;
+}
+
 /* Fine Footer */
