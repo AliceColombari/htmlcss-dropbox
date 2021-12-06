@@ -329,23 +329,21 @@ p.enterprise-light{
 
 /* Third part */
 .container-third-part{
-    background-color: yellow;
-    height: 300px;
+    height: 1000px;
     margin: 150px auto;
 }
 
-.container-third-part .third{
-    background-color: red;
+.title.third h2{
+    font-size: 30px;
 }
 
 .container-third-part .title{
-    height: 100px;
+    height: 50px;
     width: 100%;
     margin-bottom: 20px;
 }
 
 .container-third-part .frame-third{
-    background-color: red;
     width: 30%;
     height: 500px;
     padding: 15px;
@@ -359,10 +357,18 @@ p.enterprise-light{
     float: left;
 }
 
-.image-third{
+.image-third img{
+    height: 100%;
     width: 100%;
-    height: 300px;
-    background-color: blue;
+    object-fit: cover;
+}
+
+.text-third h3{
+    margin-bottom: 20px;
+}
+
+.text-third-black{
+    color: #000;
 }
 /* Fine Third part */
 
