@@ -377,12 +377,16 @@ p.enterprise-light{
     margin: 150px auto;
 }
 
-.container-fourth-part .fourth{
-    background-color: yellow;
+.title.fourth h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.title.fourth a{
+    color: #0070e0;
 }
 
 .container-fourth-part .title{
-    height: 100px;
     width: 40%;
     margin-bottom: 20px;
 }
