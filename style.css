@@ -425,24 +425,30 @@ p.enterprise-light{
 
 /* Sixth part */
 .container-sixth-part{
-    background-color: yellow;
-    height: 230px;
-    padding-top: 50px;
+    background-color: #b4d0e7;
+    height: 250px;
+    padding: 80px;
 }
 
 .text-fifth{
     width: 40%;
-    background-color: blue;
     height: 100px;
     float: left;
 }
 
-.btn-six{
-    width: 40%;
-    background-color: blue;
-    height: 100px;
-    float: right;
+.text-fifth h2{
+    font-size: 30px;
+    color: #61082b;
 }
+
+.btn-sixth .btn-white-sixth{
+    float: right;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 64px;
+}
+
 
 /* Fine Sixth part */
 
