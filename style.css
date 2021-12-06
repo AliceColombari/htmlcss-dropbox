@@ -291,22 +291,39 @@ p.enterprise-light{
 
 /* Second part */
 .container-second-part{
-    background-color: green;
     margin: 150px auto;
+    height: 500px;
+    width: calc(100% - 30px);
 }
 
-.image-second{
-    width: 50%;
-    background-color: blue;
-    height: 500px;
+.image-partner{
     float: left;
+    width: 60%;
+    height: 500px;
+    background-image: url('img/partner.png');
+    background-size: cover;
 }
 
 .text-second{
-    width: 40%;
-    background-color: red;
-    height: 500px;
     float: right;
+    width: 40%;
+    padding: 30px 65px;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.text-second p{
+    margin-bottom: 40px;
+}
+
+.text-second h2{
+    margin-bottom: 20px;
 }
 /* Fine Second part */
 
@@ -410,7 +427,7 @@ p.enterprise-light{
     float: left;
 }
 
-.btn-white{
+.btn-six{
     width: 40%;
     background-color: blue;
     height: 100px;
