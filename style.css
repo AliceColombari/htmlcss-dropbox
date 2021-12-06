@@ -454,9 +454,25 @@ p.enterprise-light{
 
 /* Seven part*/
 .container-seven-part{
-    height: 500px;
     margin: 150px auto;
-    background-color: aqua;
+}
+
+.container-seven-part h2{
+    font-size: 25px;
+    margin: 40px 0px;
+}
+
+.question-seven .text-seven-left{
+    float: left;
+}
+
+.text-seven-left{
+    padding: 20px 0px;
+}
+
+.question-seven .down-seven-right{
+    float: right;
+    width: 5%;
 }
 /* Fine Seven part*/
 /* Fine Main */
