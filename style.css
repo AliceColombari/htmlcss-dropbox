@@ -544,16 +544,23 @@ hr.designit-line{
 }
 
 .text-seven-left{
-    padding: 20px 0px;
+    width: 95%;
 }
 
 .question-seven .down-seven-right{
     float: right;
     width: 5%;
+    text-align: center;
 }
 
 .question-seven.border-top{
-    border-top: 1px solid black;
+    border-top: 1px solid #ddd;
+}
+
+.question-seven{
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding: 30px 0px;
 }
 /* Fine Seven part*/
 /* Fine Main */
