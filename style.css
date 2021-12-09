@@ -609,6 +609,10 @@ li.link-footer{
     padding: 0px;
 }
 
+.link-footer:hover{
+    text-decoration: underline;
+}
+
 .footer-line{
     width: 60%;
 }
