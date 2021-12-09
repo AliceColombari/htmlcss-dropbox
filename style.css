@@ -21,6 +21,18 @@ body{
     margin: 0 auto;
     height: 100%;
 }
+
+.btn:hover{
+    background-color: #6fa5fc;
+}
+
+.btn-white:hover{
+    background-color: rgb(231, 230, 230);
+}
+
+.btn-sixth .btn-white-sixth:hover{
+    background-color: rgb(231, 230, 230);
+}
 /* Fine Coomon */
 
 
