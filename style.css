@@ -51,6 +51,10 @@ header{
     font-size: 15px;
 }
 
+header > nav{
+    line-height: 78px;
+}
+
 .nav-bar.clearfix{
     width: 100%;
 }
@@ -73,13 +77,18 @@ li{
 }
 
 li a{
-    padding: 0 20px;
+    /* margin: 0 20px; */
     text-decoration: none;
     color: #000;
 }
 
-.here:hover{
-    
+a.here{
+    margin: 20px;
+    padding: 28px 0px;
+}
+
+a.here:hover{
+    border-bottom: 2px solid #000;
 }
 
 .nav-bar-logo:hover{
