@@ -503,7 +503,7 @@ p.enterprise-light{
     padding: 40px;
 }
 
-.logo-designit img{
+.logo-designit-center img{
     width: 30%;
 }
 
@@ -521,6 +521,12 @@ hr.designit-line{
     margin: 40px 0px;
 }
 
+img.image-fifth{
+    filter: invert();
+    vertical-align: middle;
+    width: 50%;
+}
+
 .item.green{
     background-color: #a2d39b;
     border: 10px solid rgba(255, 255, 255, 0.5);
@@ -531,11 +537,6 @@ hr.designit-line{
     text-align: center;
 }
 
-img.image-fifth{
-    filter: invert();
-    vertical-align: middle;
-    width: 50%;
-}
 .item.brown{
     background-color: #61082b;
 }
