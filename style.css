@@ -196,6 +196,7 @@ li a{
 
 i.fas.fa-check{
     color: #0070e0;
+    margin-left: -20px;
 }
 /* Col left First part */
 .internal-col-left{
@@ -227,12 +228,33 @@ p.price{
 }
 
 p.rate.text-small{
-    color: #ddd;
+    color: rgb(180, 180, 180);
 }
 
 .list-offer{
-    margin: 40px 0px;
+    margin: 40px 20px;
 }
+
+i.far.fa-user{
+    margin-left: -20px;
+}
+
+i.far.fa-smile{
+    margin-left: -20px;
+}
+
+i.fas.fa-pencil-alt{
+    margin-left: -20px;
+}
+
+i.fas.fa-user-plus{
+    margin-left: -20px;
+}
+
+i.far.fa-folder{
+    margin-left: -20px;
+}
+
 
 .list-offer li{
     margin: 10px 0px;
@@ -243,7 +265,7 @@ p.rate.text-small{
 }
 
 .highlights{
-    margin: 40px 0px;
+    margin: 40px 20px;
 }
 
 h4{
