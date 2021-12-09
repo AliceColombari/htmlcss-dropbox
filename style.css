@@ -166,7 +166,7 @@ a.here:hover{
     float: right;
 }
 
-.image{
+.image-jumbotron .image{
     width: 700px;
     margin-top: 50px;
 }
@@ -508,9 +508,13 @@ p.enterprise-light{
 }
 
 hr.designit-line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(133, 133, 133);
+    margin: 30px 0 50px 0px;
+    padding: 0;
     width: 20%;
-    color: #ddd;
-    margin: 20px 0px 50px;
 }
 
 .description p{
@@ -520,66 +524,44 @@ hr.designit-line{
 .item.green{
     background-color: #a2d39b;
     border: 10px solid rgba(255, 255, 255, 0.5);
-    background-image: url('img/designit.svg');
+    /* background-image: url('img/designit.svg');
     background-size: 60%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+    text-align: center;
 }
 
+img.image-fifth{
+    filter: invert();
+    vertical-align: middle;
+    width: 50%;
+}
 .item.brown{
     background-color: #61082b;
-    background-image: url('img/arizona_state_university.svg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .item.blue{
     background-color: #0093ce;
-    background-image: url('img/university_of_florida.svg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .item.red{
     background-color: #ff1c1c;
-    background-image: url('img/topps.svg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .item.red-2{
     background-color: #d5001f;
-    background-image: url('img/world_bicycle_relief.svg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .item.lightblue{
     background-color: #b4d0e7;
-    background-image: url('img/hearst_corp.svg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .item.blue-2{
     background-color: #0d2481;
-    background-image: url('img/lonely_planet.svg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .item.yellow{
     background-color: #ffd830;
-    background-image: url('img/clear_channel.svg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 /* Fine Fifth part */
 
